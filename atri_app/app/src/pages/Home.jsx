@@ -10,7 +10,7 @@ import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
-import { useFlex1Cb, useDiv1Cb, useDiv2Cb, useDiv10Cb, useDiv5Cb, useDiv7Cb, useButton2Cb, useButton6Cb, useTextBox2Cb, useTextBox3Cb, useButton7Cb, useButton8Cb, useTextBox23Cb, useTextBox24Cb, useTextBox25Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useTextBox30Cb, useTextBox31Cb, useDiv15Cb, useDiv16Cb, useButton9Cb, useImage1Cb, useTextBox4Cb, useTextBox5Cb, useDiv8Cb, useDiv9Cb, useTextBox6Cb, useImage2Cb, useImage3Cb, useImage4Cb, useTextBox8Cb, useTextBox9Cb, useTextBox10Cb, useTextBox11Cb, useDiv6Cb, useDiv11Cb, useDiv12Cb, useDiv13Cb, useDiv14Cb, useTextBox7Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useTextBox22Cb, useTextBox32Cb, useTextBox33Cb, useImage6Cb, useImage7Cb, useTextBox34Cb, useInput1Cb, useTextBox35Cb, useInput2Cb, useTextBox36Cb, useInput3Cb, useButton10Cb, useDiv17Cb, useDiv18Cb } from "../page-cbs/Home";
+import { useFlex1Cb, useDiv1Cb, useDiv2Cb, useDiv10Cb, useDiv5Cb, useDiv7Cb, useDiv15Cb, useButton2Cb, useButton6Cb, useTextBox2Cb, useTextBox3Cb, useButton7Cb, useButton8Cb, useTextBox23Cb, useTextBox24Cb, useTextBox25Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useTextBox30Cb, useTextBox31Cb, useDiv16Cb, useButton9Cb, useImage1Cb, useTextBox4Cb, useTextBox5Cb, useDiv8Cb, useDiv9Cb, useTextBox6Cb, useImage2Cb, useImage3Cb, useImage4Cb, useTextBox8Cb, useTextBox9Cb, useTextBox10Cb, useTextBox11Cb, useDiv6Cb, useDiv11Cb, useDiv12Cb, useDiv13Cb, useDiv14Cb, useTextBox7Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useTextBox22Cb, useTextBox32Cb, useTextBox33Cb, useImage6Cb, useImage7Cb, useTextBox34Cb, useInput1Cb, useTextBox35Cb, useInput2Cb, useTextBox36Cb, useInput3Cb, useButton10Cb, useDiv17Cb, useDiv18Cb, useDiv19Cb, useDiv21Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -48,6 +48,9 @@ const Div5Cb = useDiv5Cb()
 const Div7Props = useStore((state)=>state["Home"]["Div7"]);
 const Div7IoProps = useIoStore((state)=>state["Home"]["Div7"]);
 const Div7Cb = useDiv7Cb()
+const Div15Props = useStore((state)=>state["Home"]["Div15"]);
+const Div15IoProps = useIoStore((state)=>state["Home"]["Div15"]);
+const Div15Cb = useDiv15Cb()
 const Button2Props = useStore((state)=>state["Home"]["Button2"]);
 const Button2IoProps = useIoStore((state)=>state["Home"]["Button2"]);
 const Button2Cb = useButton2Cb()
@@ -93,9 +96,6 @@ const TextBox30Cb = useTextBox30Cb()
 const TextBox31Props = useStore((state)=>state["Home"]["TextBox31"]);
 const TextBox31IoProps = useIoStore((state)=>state["Home"]["TextBox31"]);
 const TextBox31Cb = useTextBox31Cb()
-const Div15Props = useStore((state)=>state["Home"]["Div15"]);
-const Div15IoProps = useIoStore((state)=>state["Home"]["Div15"]);
-const Div15Cb = useDiv15Cb()
 const Div16Props = useStore((state)=>state["Home"]["Div16"]);
 const Div16IoProps = useIoStore((state)=>state["Home"]["Div16"]);
 const Div16Cb = useDiv16Cb()
@@ -231,6 +231,12 @@ const Div17Cb = useDiv17Cb()
 const Div18Props = useStore((state)=>state["Home"]["Div18"]);
 const Div18IoProps = useIoStore((state)=>state["Home"]["Div18"]);
 const Div18Cb = useDiv18Cb()
+const Div19Props = useStore((state)=>state["Home"]["Div19"]);
+const Div19IoProps = useIoStore((state)=>state["Home"]["Div19"]);
+const Div19Cb = useDiv19Cb()
+const Div21Props = useStore((state)=>state["Home"]["Div21"]);
+const Div21IoProps = useIoStore((state)=>state["Home"]["Div21"]);
+const Div21Cb = useDiv21Cb()
 
   return (<>
   <Button className="p-Home Button6 bpt" {...Button6Props} {...Button6Cb} {...Button6IoProps}/>
@@ -283,7 +289,10 @@ const Div18Cb = useDiv18Cb()
 <Div className="p-Home Div16 bpt" {...Div16Props} {...Div16Cb} {...Div16IoProps}/>
 <TextBox className="p-Home TextBox23 bpt" {...TextBox23Props} {...TextBox23Cb} {...TextBox23IoProps}/>
 <TextBox className="p-Home TextBox24 bpt" {...TextBox24Props} {...TextBox24Cb} {...TextBox24IoProps}/>
-<Div className="p-Home Div15 bpt" {...Div15Props} {...Div15Cb} {...Div15IoProps}/>
+<Div className="p-Home Div15 bpt" {...Div15Props} {...Div15Cb} {...Div15IoProps}>
+<Div className="p-Home Div21 bpt" {...Div21Props} {...Div21Cb} {...Div21IoProps}/>
+<Div className="p-Home Div19 bpt" {...Div19Props} {...Div19Cb} {...Div19IoProps}/>
+</Div>
 <TextBox className="p-Home TextBox29 bpt" {...TextBox29Props} {...TextBox29Cb} {...TextBox29IoProps}/>
 <TextBox className="p-Home TextBox28 bpt" {...TextBox28Props} {...TextBox28Cb} {...TextBox28IoProps}/>
 <TextBox className="p-Home TextBox31 bpt" {...TextBox31Props} {...TextBox31Cb} {...TextBox31IoProps}/>

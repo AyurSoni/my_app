@@ -1027,3 +1027,27 @@ export function useDiv18Cb() {
 }), [])
 	return { onClick }
 }
+export function useDiv19Cb() {
+	const onClick = useCallback(callbackFactory("Div19", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv21Cb() {
+	const onClick = useCallback(callbackFactory("Div21", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}

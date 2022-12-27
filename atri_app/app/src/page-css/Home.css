@@ -35,6 +35,13 @@ width: 1500px;
 height: 350px;
 background-color: #000000;
 }
+.p-Home.Div15 {
+position: absolute;
+top: 1200px;
+left: 200px;
+width: 650px;
+height: 380px;
+}
 .p-Home.Button2 {
 color: #000000;
 background-color: #ffffff;
@@ -226,13 +233,6 @@ left: 220px;
 font-family: IBM Plex Sans;
 font-weight: 300;
 }
-.p-Home.Div15 {
-position: absolute;
-top: 1200px;
-left: 200px;
-width: 650px;
-height: 380px;
-}
 .p-Home.Div16 {
 position: absolute;
 top: 1200px;
@@ -264,6 +264,7 @@ font-family: IBM Plex Sans;
 }
 .p-Home.Image1 {
 position: absolute;
+left: 900px;
 top: 100px;
 right: 300px;
 width: 300px;
@@ -290,6 +291,7 @@ top: 100px;
 right: 300px;
 width: 300px;
 height: 300px;
+left: 900px;
 }
 .p-Home.Div9 {
 position: absolute;
@@ -369,7 +371,9 @@ width: 700px;
 height: 110px;
 position: absolute;
 top: 600px;
-right: 420px;
+right: 400px;
+align-self: center;
+left: 400px;
 }
 .p-Home.Div12 {
 position: absolute;
@@ -395,6 +399,7 @@ height: 400px;
 .p-Home.TextBox7 {
 position: absolute;
 top: 600px;
+left: 400px;
 font-size: 45px;
 width: 700px;
 height: 110px;
@@ -407,7 +412,7 @@ background-origin: padding-box;
 background-attachment: scroll;
 overflow: visible;
 box-sizing: content-box;
-right: 420px;
+right: 400px;
 font-family: IBM Plex Sans;
 font-weight: 500;
 }
@@ -655,4 +660,16 @@ top: 50px;
 left: 1100px;
 width: 300px;
 height: 280px;
+}
+.p-Home.Div19 {
+position: absolute;
+top: 200px;
+height: 70px;
+width: 100%;
+}
+.p-Home.Div21 {
+top: 300px;
+position: absolute;
+height: 70px;
+width: 100%;
 }

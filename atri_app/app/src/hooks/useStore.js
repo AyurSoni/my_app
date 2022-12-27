@@ -58,6 +58,9 @@ const desktopModeProps = {
     "Div7": {
       "callbacks": {}
     },
+    "Div15": {
+      "callbacks": {}
+    },
     "Button2": {
       "custom": {
         "text": "Ayur Soni"
@@ -233,9 +236,6 @@ const desktopModeProps = {
           }
         ]
       }
-    },
-    "Div15": {
-      "callbacks": {}
     },
     "Div16": {
       "callbacks": {}
@@ -676,6 +676,12 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Div18": {
+      "callbacks": {}
+    },
+    "Div19": {
+      "callbacks": {}
+    },
+    "Div21": {
       "callbacks": {}
     }
   }
